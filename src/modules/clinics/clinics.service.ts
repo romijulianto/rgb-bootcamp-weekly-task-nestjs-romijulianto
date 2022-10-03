@@ -33,11 +33,8 @@ export class ClinicsService {
     }
 
     async update(id, data, userId) {
-        const [numberOfAffectedRows, [updatedClinic]] = await this.clinicRepository.update(
-            { ...data },
-            {
-                where: { id, userId },
-                returning: true
-            });
+        const [numberOfAffectedRows, [updatedClinic]] = await this.clinicRepository.update({ ...data }, { where: { id, userId }, returning: true });
+
+        return { numberOfAffectedRows, updatedClinic };
     }
 }
