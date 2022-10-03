@@ -16,6 +16,7 @@ _Documentation by Romi Julianto_
 - npm install --save-dev @types/passport-local
 - npm install bcrypt --save
 - npm install @nestjs/jwt passport-jwt
+- npm i class-validator class-transformer --save
 ```
 
 ## Generate Module NestJS
