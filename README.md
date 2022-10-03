@@ -12,6 +12,7 @@ _Documentation by Romi Julianto_
 - npm install --save-dev @types/sequelize
 - npm install dotenv --save
 - npm i --save @nestjs/config
+- npm install --save @nestjs/passport passport passport-local
 ```
 
 ## Generate Module NestJS
