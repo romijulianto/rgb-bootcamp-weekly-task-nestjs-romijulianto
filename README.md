@@ -29,4 +29,7 @@ _Documentation by Romi Julianto_
 - nest generate module modules/auth
 - nest generate service modules/auth
 - nest g co modules/auth
+- nest g module modules/clinics
+- nest g service modules/clinics
+- nest g controller modules/clinics
 ```
