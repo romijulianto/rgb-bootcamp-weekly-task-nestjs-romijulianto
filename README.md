@@ -13,6 +13,8 @@ _Documentation by Romi Julianto_
 - npm install dotenv --save
 - npm i --save @nestjs/config
 - npm install --save @nestjs/passport passport passport-local
+- npm install --save-dev @types/passport-local
+- npm install bcrypt --save
 ```
 
 ## Generate Module NestJS
