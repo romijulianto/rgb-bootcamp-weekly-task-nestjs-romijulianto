@@ -21,4 +21,6 @@ _Documentation by Romi Julianto_
 - nest generate module modules/users
 - nest generate service modules/users
 - nest generate module modules/auth
+- nest generate service modules/auth
+- nest g co modules/auth
 ```
