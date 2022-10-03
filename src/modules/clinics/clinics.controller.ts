@@ -58,11 +58,10 @@ export class ClinicsController {
 
         /* if the number of row affected is zero, 
         then the clinic doesn't exist in db */
-        if (deleted === 0) {
+        if (deleted == 0) {
             throw new NotFoundException('This Clinic doesn\'t exist');
         }
 
         return 'Succesfully deleted';
     }
-
 }

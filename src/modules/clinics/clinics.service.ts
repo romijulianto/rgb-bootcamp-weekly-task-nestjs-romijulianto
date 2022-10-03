@@ -1,5 +1,5 @@
 import { Injectable, Inject } from '@nestjs/common';
-import { CLINIC_REPOSITORY } from 'src/core/constants';
+import { CLINIC_REPOSITORY } from '../../core/constants';
 import { User } from '../users/user.entity';
 import { Clinic } from './clinics.entity';
 import { ClinicDto } from './dto/clinics.dto';
@@ -35,6 +35,6 @@ export class ClinicsService {
     async update(id, data, userId) {
         const [numberOfAffectedRows, [updatedClinic]] = await this.clinicRepository.update({ ...data }, { where: { id, userId }, returning: true });
 
-        return { numberOfAffectedRows, updatedClinic };
+        return { numberOfAffectedRows, updatedClinic};
     }
 }

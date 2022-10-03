@@ -33,3 +33,7 @@ _Documentation by Romi Julianto_
 - nest g service modules/clinics
 - nest g controller modules/clinics
 ```
+
+### Referensi
+
+- [How to Build Web APIs with NestJS, Postgres, and Sequelize - A Beginner's Guide](https://www.freecodecamp.org/news/build-web-apis-with-nestjs-beginners-guide/)
