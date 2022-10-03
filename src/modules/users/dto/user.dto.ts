@@ -18,7 +18,7 @@ export class UserDto {
 
     @IsNotEmpty()
     @IsEnum(Gender, {
-        message: 'gender must be either male or female',
+        message: 'Gender must be either male or female',
     })
     readonly gender: Gender;
 }
